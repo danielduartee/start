@@ -1,0 +1,107 @@
+body {
+    background: #e5e5e5;
+}
+.logo-nav{
+    height: 50px;
+}
+.nav-form {
+    outline: 0;
+}
+.nav-form::placeholder {
+    color: #fca311;
+}
+.botao-pesquisa {
+    width: 60px;
+}
+.material-icons {
+    color:#8b8c89;
+}
+.titulo-form {
+    width: 40%;
+}
+.input-form {
+    width: 270px;
+}
+.input-form::placeholder {
+    color: #274c77;
+}
+.botoes-login {
+    width: 45%;
+}
+
+h2{
+    color: aliceblue;
+    left: 16%;
+    position: relative;
+}
+.caroussel{
+    /* width: 1000px;  */
+    margin: 0 auto; 
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}  
+
+::-webkit-scrollbar
+{
+    width: 15%;
+}
+#scrollPath
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255,255,255,0.05)
+}
+#progressbar
+{ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+   
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        filter: hue-rotate(0deg);
+    }
+    50%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+#progressbar::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(10px);
+}
+#progressbar::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(30px);
+}
+
+@media (max-width: 600px) {
+    footer {
+       margin-top: 100px;
+    }
+}

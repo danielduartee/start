@@ -1,0 +1,140 @@
+body {
+    background: #e5e5e5;
+}
+.logo-nav{
+    height: 50px;
+}
+.nav-form {
+    outline: 0;
+}
+.nav-form::placeholder {
+    color:#8b8c89;
+}
+.botao-pesquisa {
+    width: 60px;
+}
+.material-icons {
+    color: #8b8c89;
+}
+.titulo-form {
+    width: 40%;
+}
+.input-form {
+    width: 270px;
+}
+.input-form::placeholder {
+    color:  #fca311;
+}
+.botoes-login {
+    width: 110px;
+}
+footer {
+    margin-top: 100px;
+}
+@media (max-width: 600px) {
+    .formulario {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .titulo-form {
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
+
+/* Pagina de contato style */
+
+.pessoas-style{
+    background-color: transparent;
+    max-width: 20rem;
+    align-items: center;
+    width: 220px;
+    justify-content: center;
+}
+
+.pessoas{
+    border-radius: 50%;
+    width: 100px;
+}
+.contatos{
+    color: aliceblue;
+}
+.redes-sociais{
+    list-style: none;
+}
+.card {
+    border: none;
+}
+
+ /* Página de busca de filme */
+
+.botao-busca-filme {
+    width: 270px;
+}
+.resposta-api {
+    flex-wrap: wrap;
+}
+#posterApi {
+    float: left;
+    text-align:left;
+}
+.redes-sociais a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.redes-sociais a:hover{
+    cursor: pointer;
+    color: rgb(97, 95, 95);
+}
+
+ /* Pagina de recuperação de senha */
+
+.form-recuperacao-senha {
+    margin: 10% 3%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1% 0;
+}
+.p-recuperacao-senha {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.e-mail-usuario {
+    color:rgb(2, 2, 2);
+}
+
+#e-mail-usuario {
+    width: 250px;
+    height: 50px;
+}
+
+.botao-recuperacao-senha {
+    width: 250px
+}
+
+/* Pagina de cadastro style */
+
+.formCadastro {
+    width: 30%;
+}
+button {
+    background: none;
+    border: none;
+}
+@media (max-width: 600px) {
+    .formCadastro{
+        width: 80%;
+    }
+}
+
+
